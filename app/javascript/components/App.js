@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import PropTypes from "prop-types";
-import { Nav, NavItem } from "reactstrap";
+
 
 class App extends Component {
   render() {
