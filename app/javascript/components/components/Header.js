@@ -19,11 +19,12 @@ class Header extends Component {
       <header>
         <NavLink to="/">
           <h1>logo goes here</h1>
+          <h4>Home</h4>
         </NavLink>
         <div className="nav-links">
-          <ul>
+          {/* <ul>
             <li>Apartment Index</li>
-          </ul>
+          </ul> */}
           {!logged_in && 
             <>
               <ul>
