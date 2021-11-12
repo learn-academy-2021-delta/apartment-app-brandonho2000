@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+first_user = User.first
+
+apartments.each do|attribute|
+    first_user.apartments.create attribute
+end

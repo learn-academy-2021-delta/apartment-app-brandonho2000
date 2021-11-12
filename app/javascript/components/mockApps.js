@@ -1,0 +1,111 @@
+let mockApps =[
+    {
+        street:"1401 Elm St", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$2,455-$7,600",
+        bedrooms:2, 
+        bathrooms:2, 
+        pets:"Doesn't Allows Pets",
+        user_id:0
+    },
+    {
+        street:"300 Pearl St", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$1,900-$5,824",
+        bedrooms:2, 
+        bathrooms:2, 
+        pets:"Allows Pets",
+        user_id:1
+    },
+    {
+        street:"1800 N Field St", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$2,475-$8,775",
+        bedrooms:3, 
+        bathrooms:2, 
+        pets:"Allows Pets",
+        user_id:2
+    },
+    {
+        street:"2523 Elm St", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$2,085-$4,885",
+        bedrooms:3, 
+        bathrooms:2, 
+        pets:"Allows Pets",
+        user_id:3
+    },
+    {
+        street:"6606 Mapleshade Ln", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$3,191-$3,757",
+        bedrooms:2, 
+        bathrooms:2, 
+        pets:"Allows Pets",
+        user_id:4
+    },
+    {
+        street:"1900 N Beckley Ave", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$1,399-$2,695",
+        bedrooms:1, 
+        bathrooms:1, 
+        pets:"Allows Pets",
+        user_id:5
+    },
+    {
+        street:"3330 Oack Grove Ave", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$1,730-$2,290",
+        bedrooms:2, 
+        bathrooms:1, 
+        pets:"Allows Pets",
+        user_id:6
+    },
+    {
+        street:"3131 Main St", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$1,467-$2,959",
+        bedrooms:2, 
+        bathrooms:2, 
+        pets:" Doesn't Allows Pets",
+        user_id:7
+    },
+    {
+        street:"12639 Coit Rd", 
+        city:"Dallas",
+        state:"Texas", 
+        manager:"string", 
+        email:"string",
+        price:"$1,499-$2,834",
+        bedrooms:2, 
+        bathrooms:2, 
+        pets:"Doesn't Allows Pets",
+        user_id:8
+    },
+]
+export default mockApps
