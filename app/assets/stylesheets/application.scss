@@ -15,9 +15,66 @@
  *= require_tree .
  *= require_self
  */
+*{
+    margin: 0%;
+    color: #e9a664;
+    
+}
 
- *{
-     background-color: black;
-     color: white;
+// header
+ .app-logo{
+height: 200px;
+ }
+
+header{
+    background-color: #1e1d1d;
+    margin: 0%;
+    // height: 143px;
+}
+ .nav-links-header{
+    //  display: flex;
+    //  justify-content:center;
+    display: inline;
+    font-weight: bold;
+    text-align: right;
+ }
+
+ // body 
+ .title{
      text-align: center;
  }
+
+ body{
+    background-color: #1e1d1d;
+}
+.indextitle{
+    text-align: center;
+}
+.carousel{
+// width: 98%;
+// display: flex;
+
+}
+// Footer
+footer{
+    background-color: white;
+}
+
+.nav-links-footer{
+    display: flex;
+    justify-content:space-evenly;
+    font-weight: bold;
+ }
+
+ // reactstrap components 
+ .indexcards{
+     display: flex;
+     justify-content: space-around;
+     flex-direction:column;
+     background-color: #1e1d1d;  ;
+ }
+
+ .btn{
+    background-color: #26B68D
+    ;
+}
